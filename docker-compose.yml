@@ -1,3 +1,4 @@
+name: my-web-project 
 services:
   my-web-server:           # ชื่อ Service ที่เราตั้งเอง
     image: nginx:latest    # ใช้ Image ชื่อ nginx รุ่นล่าสุด
