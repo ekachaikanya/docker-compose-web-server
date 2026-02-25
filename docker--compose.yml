@@ -1,5 +1,0 @@
-services:
-  my-web-server:           # ชื่อ Service ที่เราตั้งเอง
-    image: nginx:latest    # ใช้ Image ชื่อ nginx รุ่นล่าสุด
-    ports:
-      - "8080:80"          # Map Port: เข้าผ่านเครื่องเราที่ 8080 -> ส่งไปที่ Port 80 ของ Container
